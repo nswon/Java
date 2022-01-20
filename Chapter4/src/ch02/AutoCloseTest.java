@@ -7,7 +7,7 @@ public class AutoCloseTest {
 		AutoClosebleObj obj = new AutoClosebleObj();
 		
 		try(obj) {
-			throw new Exception();
+			throw new Exception(); //exception 강제로 생성을 통해 exception이 출력됨
 		}catch(Exception e) {
 			System.out.println("exception");
 			

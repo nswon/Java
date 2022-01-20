@@ -1,0 +1,16 @@
+context : 
+각각 자신만의 작업공간을 가짐
+(thread가 자기만의 변수를 가지고 있는 것)
+
+shared resource : 
+thread들이 동시에 공유하는 자원(static 객체)
+
+multi threading : 
+동시에 일어나는 것처럼 보이지만, thread가 쓰고 있는 동안에는 다른 thread는 못쓰게 하는 기법을 사용한다.
+
+shared resource는 문제가 일어날 수 있다.
+(예를 들어, thread가 공유자원으로 더하기 연산을 올려놓고 다른 thread가 그 연산을 빼면 문제가 발생한다.
+좀더 단순하게 말하면 공유자원은 한정적이고 thread들이 서로 쓰려고 하는 상황이다.)
+이 문제를 해결하기 위해 동기화를 구현해야한다.
+
+동기화 구현 : 간단하게 얘기하면 thread가 사용하고 있는 동안 다른 thread는 lock이 걸린다.
