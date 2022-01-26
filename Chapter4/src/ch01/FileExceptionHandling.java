@@ -11,7 +11,8 @@ public class FileExceptionHandling {
 		FileInputStream fis = null;
 		
 		try {
-			fis = new FileInputStream("a.txt"); //a.txt가 없음
+			//a.txt가 없음
+			fis = new FileInputStream("a.txt"); 
 			System.out.println("log.info : read ok");
 			
 		} catch (FileNotFoundException e) {
