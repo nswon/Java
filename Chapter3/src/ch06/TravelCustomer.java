@@ -2,9 +2,9 @@ package ch06;
 
 public class TravelCustomer {
 	
-	private String name;
-	private int age;
-	private int price;
+	private String name; //이름
+	private int age; //나이
+	private int price; //가격
 	
 	public TravelCustomer(String name, int age, int price) {
 		this.name = name;
