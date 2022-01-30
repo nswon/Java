@@ -15,6 +15,7 @@ public class VIPCustomer extends Customer{
 		System.out.println("VIPCustomer(int, String) call");
 	}
 	*/
+	
 	public VIPCustomer(int customerID, String customerName) {
 		super(customerID, customerName);
 		bonusRatio = 0.05;
