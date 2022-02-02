@@ -16,7 +16,7 @@ public class ThreadTest2 {
 
 	public static void main(String[] args) {
 
-		System.out.println(Thread.currentThread() + "start");
+		System.out.println(Thread.currentThread() + "log info : start");
 		
 		TestThread runnable = new TestThread();
 		
@@ -26,7 +26,7 @@ public class ThreadTest2 {
 		th1.start();
 		th2.start();
 		
-		System.out.println(Thread.currentThread() + "end");
+		System.out.println(Thread.currentThread() + "log info : end");
 
 		Runnable run = new Runnable() {
 			
