@@ -9,7 +9,7 @@ public class MyNumberTest {
 			else return y;
 		};
 		/*
-		more simple code = MyNumber myNumber = (x, y) -> x > y? x : y;
+		 simple code = MyNumber myNumber = (x, y) -> x > y? x : y;
 		*/
 		
 		System.out.println(myNumber.getMax(10, 20));
