@@ -52,7 +52,7 @@ public class AnimalTest {
 		Animal eAnimal = new Eagle();
 		
 		//AnimalTest test = new AnimalTest();
-		
+		//start
 		//test.moveAnimal(hAnimal);
 		//test.moveAnimal(tAnimal);
 		//test.moveAnimal(eAnimal);
