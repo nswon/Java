@@ -50,6 +50,7 @@ public class AnimalTest {
 		Animal hAnimal = new Human();
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
+		Animal cAnimal = new Tiger();
 		
 		//AnimalTest test = new AnimalTest();
 		//start
@@ -62,6 +63,7 @@ public class AnimalTest {
 		animalList.add(hAnimal);
 		animalList.add(tAnimal);
 		animalList.add(eAnimal);
+		animalList.add(cAnimal);
 		
 		for(Animal animal : animalList) {
 			animal.move();
