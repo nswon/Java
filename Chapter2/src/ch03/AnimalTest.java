@@ -43,6 +43,12 @@ class Eagle extends Animal {
 	}
 }
 
+class Cat extends Animal {
+	public void move() {
+		System.out.println("고양이가 점프합니다.");
+	}
+}
+
 public class AnimalTest {
 
 	public static void main(String[] args) {
@@ -50,7 +56,7 @@ public class AnimalTest {
 		Animal hAnimal = new Human();
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
-		Animal cAnimal = new Tiger();
+		Animal cAnimal = new Cat();
 		
 		//AnimalTest test = new AnimalTest();
 		//start
