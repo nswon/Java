@@ -87,7 +87,7 @@ public class AnimalTest {
 				eagle.flying();
 			}
 			else {
-				System.out.println("unsupported type");
+				System.out.println("log info : unsupported type");
 			}
 		}
 	}
